@@ -3,7 +3,7 @@ name: Deploy Portfolio
 on:
   push:
     branches:
-      - main   # remove paths restriction
+      - master   # remove paths restriction
 
 permissions:
   contents: write
