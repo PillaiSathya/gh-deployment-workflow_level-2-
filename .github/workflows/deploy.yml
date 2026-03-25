@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Docker Image
-         run: docker build -t portfolio-app .
+        run: docker build -t portfolio-app .
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
